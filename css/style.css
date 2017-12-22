@@ -1,0 +1,67 @@
+#accordion{
+    width: 70%;
+    margin: auto;
+}
+#butBuy{
+    margin: auto;
+    widows: 20%;
+}
+#headingThree, #headingTwo, #headingOne{
+    background: #02a1e7;
+    color: white;
+}
+#headSite {
+    background: #7253a3;
+    width: 100%;
+    text-align: center;
+}
+#logo{
+    padding: 20px;
+}
+#slider{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+}
+#pict{
+    width: 80%;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    transition-duration: 1s;
+    margin-bottom: 50px;
+}
+#arrowLeft, #arrowRight{
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+    background-position: center center; 
+    background-size: 40%;
+    background-repeat: no-repeat; 
+    transition-duration: 1s;
+}
+#arrowLeft{
+    background-image: url(../img/left.png);
+}
+#arrowRight{
+    background-image: url(../img/right.png);
+}
+#arrowLeft:hover, #arrowRight:hover{
+    background-size: 60%;
+    transition-duration: 1s;
+}
+
+#pictAnimation{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#butBuy{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 25px;
+}
